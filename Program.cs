@@ -7,7 +7,7 @@
 Console.Clear();
 
 Console.Write("Введите число ");
-int number = Convert.ToInt32(Console.ReadLine());
+Int number = Convert.ToInt32(Console.ReadLine());
 
 //int sqrt = number * number;
 // or number *= number; 
@@ -15,3 +15,4 @@ int number = Convert.ToInt32(Console.ReadLine());
 Int sqrt1 = Convert.ToInt32(Math.Pow(number, 2));
 
 Console.Write("Число в квадрате: " + sqrt1);
+
